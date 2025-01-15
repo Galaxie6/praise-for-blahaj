@@ -1,3 +1,5 @@
+/* Sections CSS */
+
 .headings {
     padding-top: 3px;
     padding-bottom: 5px;
@@ -18,6 +20,7 @@
     font-size: 100%;
     border-radius: 12px;
     margin-top: 15px;
+    margin-bottom: -8px;
 }
 
 .top-tips-blahaj {
@@ -42,6 +45,44 @@
   margin-bottom: 15px;
 }
 
+/* H1, H2, H3, H4, H5 Formatting */
+
+h1 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: bolder;
+}
+
+h2 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h3 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h4 {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: normal;
+}
+
+h5 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Paragraph Formatting */
+
+p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* Body Formatting */
+
 body {
     height: 100vh;
     background: #003C5F;
@@ -49,19 +90,10 @@ body {
     font-size: 110%;
     font-weight: normal;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
     font-family: 'Funnel Sans', sans-serif;
-    padding: 5px;
 }
 
-h1 {
-    font-weight: bolder;
-}
-
-h4 {
-    font-weight: normal;
-}
+/* Button Formatting */
 
 button {
     background: rgb(2,60,136);
@@ -79,27 +111,29 @@ button {
     border-width: 0px;
 }
 
+/* Button Anim. */
+
 .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   
-  .button span:after {
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
+}
   
-  .button:hover span {
+.button:hover span {
     padding-right: 25px;
-  }
+}
   
-  .button:hover span:after {
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
